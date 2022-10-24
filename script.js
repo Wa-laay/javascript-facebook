@@ -1,11 +1,11 @@
-var database = [
+let database = [
     {
         username: "whales",
         password: "supersecret"
     }
 ];
 
-var newsFeed = [
+let newsFeed = [
     {
         username: "Bobby",
         timeline: "So tired from all that learning  fr!"
@@ -15,9 +15,9 @@ var newsFeed = [
         timeline: "Javascript is sooooo cool!"
     }
 ];
-
-var userNamePrompt = prompt("What's your username?")
-var passwordPrompt = prompt("What's your password?")
+console.log(newsFeed[0])
+let userNamePrompt = prompt("What's your username?")
+let passwordPrompt = prompt("What's your password?")
 
 function singIn(user, pass)  {
     if ( user === database[0].username &&
